@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Address Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo" alt="AIO Study Platform">
+            <img title="Logo" src="img/Logo.png">
+        </div>
+        <div class="actions">
+            <label for="lang-select"></label>
+            <div class="custom-select">
+                <div class="select-button">
+                  <div class="selected-option">
+                    <img title="Lang"  src="img/language.png">
+                    EN
+                  </div>
+                </div>
+                <div class="options-container">
+                  <div class="option" data-value="1">
+                    繁
+                  </div>
+                  <div class="option" data-value="2">
+                    简
+                  </div>
+                </div>
+              </div>
+
+            <span class="contactus">Contact Us</span>
+            <button class="login">Login</button>
+        </div>
+    </header>
+    <div class="hamburger-menu" id="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    <nav class="nav-links" id="nav-links">
+        <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Schools</a></li>
+        <li><a href="#">Media Highlights</a></li>
+        <li><a href="#">Help</a></li>
+        </ul>
+    </nav>
+  
+    <section>
+        <div class="hero">
+            <div class="hero-text">
+                <div class="title">Welcome to the AIO Study Platform</div>
+                <div class="subtitle">All-in-One Platform for Self-Learners</div>
+                <div><p>Lorem ipsum dolor sit amet consectetur. Pellentesque velit id sodales et at fermentum. Sed id egestas nec odio sit.</p></div>
+                <div class="readmore">
+                    <button><div class="readmore-text">Read More</div></button>
+                </div>
+            </div>    
+        </div>    
+    </section>
+
+    <main>
+        <div class="search-container">
+            <input type="text" class="search-input" id="search-input" placeholder="Search School Address" />
+            <button class="search" id="search-btn">Search</button>
+        </div>   
+
+        <section id="results">
+            <div class="result-title">Popular Schools 
+                <img title="Q"  src="img/q.png"></div>
+            <div id="school-list"></div>
+        </section>
+    </main> 
+
+    <footer>
+        <div class="sponsor-icon">
+            <img title="FooterLogo1" src="img/footer1.png">
+        </div>
+        <div class="sponsor-icon">
+            <img title="FooterLogo2" src="img/footer2.png">
+        </div>
+        <div class="terms">
+            <span>Important Legal Notices</span>   
+            <span>Sitemap</span> 
+            <span>Accessibility</span> 
+        </div>    
+
+        <div class="copyright">Copyright © AIO Study Platform</div>
+    </footer>
+
+    <div>
+        <img title="Bookmark" class="floating_icon" src="img/floating_icon.png" onmouseover="this.src='img/mylist.png';" onmouseout="this.src='img/floating_icon.png';" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
