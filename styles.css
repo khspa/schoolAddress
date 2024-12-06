@@ -547,7 +547,7 @@
 
     header .actions {
         flex-direction: column;
-        gap: 10px;
+        gap: 0;
     }
 
     nav ul {
@@ -609,7 +609,7 @@
         display: flex;
         position: absolute;
         left: 50%;
-        top: 145px;
+        top: 120px;
       }
     
       .nav-links {
@@ -617,7 +617,7 @@
         flex-direction: column;
         position: absolute;
         right: 0;
-        background: #fff;
+        background: #fffbeb;
         width: 100%;
         padding: 20px 0;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -653,10 +653,26 @@
 }
 
 @media (max-width: 640px) {
+   
+    header button.login {
+        padding: 8px 24px;
+        margin-top: 10px;
+    }
 
+    .custom-select {
+        margin-right: 0;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+    
     .school-item div:nth-of-type(2) {
         width: 70%;
     }
+
+    .hero {
+        padding: 0 20px;
+    }
+    
 } 
 
 @media (max-width: 480px) {
@@ -693,6 +709,7 @@
 
     .school-item .school-name {
         font-size: 1rem;
+        width: 80%;
     }
 
     .more-btn {
